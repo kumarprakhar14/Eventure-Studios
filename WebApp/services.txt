@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <h2 class="logo">Logo</h2>
+        <a href="index.html">Home</a>
+        <a class="active" href="#">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="./about.html">About</a>
+        <a href="#Pricing">Pricing</a>
+    </nav>
+
+    <div class="container">
+        <h1>Our Services</h1>
+
+        <div class="service">
+            <h2><span>1.</span>Content Creation</h2>
+            <p>At BrightMind Media, we craft compelling content that captures your audience's attention and keeps them
+                coming back for more. Our services include:</p>
+                <br>
+            <ul class="service-list">
+                <li><strong>Engaging Blog Posts:</strong> Transform your blog into a go-to resource with our
+                    well-researched and engaging articles.</li>
+                <li><strong>Informative Articles:</strong> Provide valuable insights and information to your readers
+                    with our expertly written articles.</li>
+                <li><strong>Captivating Social Media Content:</strong> Boost your social media presence with
+                    eye-catching posts designed to engage and grow your audience.</li>
+            </ul>
+        </div>
+
+        <div class="service">
+            <h2>Video Editing</h2>
+            <p>We bring your vision to life with professional video editing services that make your content stand out.
+                Our offerings include:</p>
+                <br>
+            <ul class="service-list">
+                <li><strong>Promotional Videos:</strong> Drive engagement and sales with high-quality promotional videos
+                    tailored to your brand.</li>
+                <li><strong>Explainer Videos:</strong> Simplify complex concepts and enhance understanding with our
+                    clear and concise explainer videos.</li>
+                <li><strong>Tutorials and More:</strong> Educate and inform your audience with expertly edited tutorial
+                    videos and other content.</li>
+            </ul>
+        </div>
+
+        <div class="service">
+            <h2>Graphic Designing</h2>
+            <p>Our talented graphic designers create visually stunning designs that leave a lasting impression. Services
+                include:</p>
+                <br>
+            <ul class="service-list">
+                <li><strong>Eye-catching Thumbnails:</strong> Increase clicks and views with custom thumbnails that
+                    stand out.</li>
+                <li><strong>Professional Logos:</strong> Establish your brand identity with a unique and professional
+                    logo.</li>
+                <li><strong>Visually Appealing Carousels:</strong> Engage your audience with beautiful, easy-to-navigate
+                    carousels.</li>
+                <li><strong>Stunning Posters:</strong> Capture attention and convey your message with our striking
+                    poster designs.</li>
+                <li><strong>Custom Graphics for Social Media and Websites:</strong> Enhance your online presence with
+                    bespoke graphics that align with your brand.</li>
+            </ul>
+        </div>
+
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>We build websites that are not only visually appealing but also highly functional and user-friendly. Our
+                services include:</p>
+                <br>
+            <ul class="service-list">
+                <li><strong>Custom Website Design and Development:</strong> Get a website that is tailored to your
+                    specific needs and goals.</li>
+                <li><strong>Responsive and User-friendly Websites:</strong> Ensure a seamless user experience across all
+                    devices with our responsive designs.</li>
+                <li><strong>E-commerce Solutions:</strong> Boost your sales with our robust e-commerce solutions.</li>
+                <li><strong>Website Maintenance and Updates:</strong> Keep your website running smoothly with our
+                    regular maintenance and update services.</li>
+            </ul>
+        </div>
+
+        <div class="service">
+            <h2>SEO</h2>
+            <p>Our SEO experts help you climb the search engine rankings and attract more visitors to your site.
+                Services include:</p>
+                <br>
+            <ul class="service-list">
+                <li><strong>On-page and Off-page Optimization:</strong> Improve your website’s visibility with our
+                    comprehensive optimization services.</li>
+                <li><strong>Keyword Research and Analysis:</strong> Identify the best keywords to target for maximum
+                    impact.</li>
+                <li><strong>Content Optimization:</strong> Enhance your existing content to make it more search engine
+                    friendly.</li>
+                <li><strong>Link Building:</strong> Increase your site’s authority and ranking with our effective
+                    link-building strategies.</li>
+                <li><strong>Local SEO to Boost Your Online Presence:</strong> Dominate local search results and attract
+                    more local customers.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="" class="logo" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque totam libero accusamus,
+                    sapiente aliquam rem ullam suscipit quis quo porro ipsum tempore? Dolorum iste numquam obcaecati
+                    minima ea fuga?
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office</h3>
+                <p>IIPL Road</p>
+                <p>Whitefield, Banglore</p>
+                <p>Karnataka, PIN-560066, India</p>
+                <a class="email-id" href="mailto:kumarprakharkp143@gmail.com">kumarprakharkp143@gmail.com</a>
+                <a class="tel" href="tel:+91-023456789">+91-023456789</a>
+
+            </div>
+            <div class="col">
+                <h3>Links</h3>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="">Services</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    <li> <a href="">Features</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col col4">
+                <h3>Newletter</h3>
+                <form action="">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button class="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

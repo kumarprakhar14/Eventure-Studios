@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.903);
+    /* background-color: yellow; */
+}
+
+.topnav h2{
+  color: #fff;
+  margin: 0px 30px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    /* background-color: #0000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .nav-logo{
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 4vw;
+    height: 7vh;
+  }
+
+  .nav-logo:hover{
+    width: 5vw;
+    height: 8vh;
+    transition: all .5s ease;
+    cursor: pointer;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-size: 1.3em;
+    background-color: #f3eeee;
+    color: black;
+    transition: all 0.5s;
+    border-radius: 10px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    font-size: 1.3rem;
+    background-color: #f3eeee;
+    color: black;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+/* hero section */
+
+.hero{
+  height: 100vh;
+  width: 95vw;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+}
+
+.left-col{
+  height: 100vh;
+  width: 47vw;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  top: 3vh;
+  justify-content: flex-start;
+}
+
+.header{
+  position: absolute;
+  text-align: center;
+}
+
+.left-col h1{
+  font-size: 5rem;
+  font-weight: 600;
+  /* letter-spacing: 3px; */
+  margin: 40px 30px 0;
+  padding: 30px 10px 0;
+}
+
+.left-col h4{
+  font-size: 1.4rem;
+  margin: 0px 30px 0;
+  padding: 10px 10px 0;
+}
+
+.left-col span{
+  color: yellow;
+}
+
+.typed-anime{
+  position: relative;
+  top: 40vh;
+}
+
+.typed-anime h3{
+  margin: 20px;
+  padding: 20px;
+  
+  font-size: 1.9rem;
+}
+
+.left-col button{
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  top: 45vh;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+#btn1{
+  color: silver;
+  background: linear-gradient(to right, #00093cee, #2d0b00);
+  box-sizing: border-box;
+  box-shadow: 10px 19px 10px #000, -3px -3px 25px #928d8d;
+}
+
+#btn2{
+  color: white;
+  background: none;
+  border: 1px solid silver;
+  
+}
+
+#btn1:hover{
+  color: white;
+  background: none;
+  box-shadow: none;
+  border: 1px solid silver;
+  transition: all .3s ease-in-out;
+}
+
+#btn2:hover{
+  color: silver;
+  background: linear-gradient(to right, #00093cee, #2d0b00);
+  box-sizing: border-box;
+  box-shadow: 10px 19px 10px #000, -3px -3px 25px #928d8d;
+  border: none;
+  transition: all .3s ease-in;
+}
+
+.right-col{
+  height: 100vh;
+  width: 48vw;
+  margin: 10px;
+  padding: 10px;
+  justify-content: flex-end;
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+  
+}
+
+.right-col img{
+  height: 90vh;
+  object-fit: fill;
+  background: transparent;
+  aspect-ratio: 3/2;
+  border: 1px solid rgba(0, 0, 0, 0.903);
+  border-bottom-left-radius: 20%;
+}
+
+
+/* opening animaition */
+
+/* Define the fade-in animation */
+/* @keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Apply the fade-in animation to the body when the page loads */
+/*
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Apply fade-in animation to the heading */
+/*
+.hero h1 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Apply fade-in animation to the subheading */
+/*
+.hero h3 {
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Apply fade-in animation to the image */
+/*
+.hero img {
+  animation: fadeIn 4s ease-in-out;
+}
+
+/* Optionally, you can add a delay to the animation for a staggered effect */
+/*
+.hero img, h1, h2 {
+  animation-delay: 0.5s;
+} */
+
+
+/* Apply bounce animation to the nav bar items */
+
+/* Define the bounce animation */
+/*
+@keyframes bounceIn {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-30px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+}
+
+
+.topnav {
+  animation: bounceIn 1s ease;
+}
+
+.topnav a {
+  display: inline-block;
+  margin-right: 20px;
+  animation: bounceIn 1s ease;
+}
+*/
+
+/* Staggering the animation for each nav item */
+/*
+.topnav a:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.topnav a:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.topnav a:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.topnav a:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.topnav a:nth-child(5) {
+  animation-delay: 1.0s;
+}
+
+.topnav a:nth-child(6) {
+  animation-delay: 1.2s;
+}
+*/

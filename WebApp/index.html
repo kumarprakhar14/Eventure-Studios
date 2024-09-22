@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventure Studios</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <img class="nav-logo" src="./Images/logo.png" alt="" srcset="">
+        <a class="active" href="#home">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="./about.html">About</a>
+        <a href="#Pricing">Pricing</a>
+    </nav>
+    <!-- <hr id="nav-hr"> -->
+    <div class="hero">
+        <div class="left-col">
+            <div class="header">
+                <h1>Eventure <span>Studios</span></h1>
+                <h4>From <span>Vision </span>to <span>Victory</span></h4>
+            </div>
+            <div class="typed-anime">
+                <h3>We're the best at <span class="auto-type"></span></h3>
+            </div>
+            <button id="btn1" class="action-call">Book a free consulation</button>
+            <button id="btn2" class="action-call">Request a free call back</button>
+        </div>
+
+        <div class="right-col">
+            <img src="./Images/hero2.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- script -->
+
+    <script src="typed.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ['Content Creation', 'Video Editing', 'Graphic Designing', 'Web Developement', 'Search Engine Optimization', 'Meta Ads'],
+            typeSpeed: 50,
+            backSpeed: 80,
+            loop: true
+        })
+    </script>
+
+</body>
+</div>
+
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="" class="logo" alt="Logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque totam libero accusamus, sapiente
+                aliquam rem ullam suscipit quis quo porro ipsum tempore? Dolorum iste numquam obcaecati minima ea fuga?
+            </p>
+        </div>
+        <div class="col">
+            <h3>Office</h3>
+            <p>IIPL Road</p>
+            <p>Whitefield, Banglore</p>
+            <p>Karnataka, PIN-560066, India</p>
+            <a class="email-id" href="mailto:kumarprakharkp143@gmail.com">kumarprakharkp143@gmail.com</a>
+            <a class="tel" href="tel:+91-023456789">+91-023456789</a>
+
+        </div>
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="about.html">About Us</a></li>
+                <li> <a href="">Features</a></li>
+                <li> <a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="col col4">
+            <h3>Newletter</h3>
+            <form action="">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="Enter your email id" required>
+                <button class="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
